@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Login and Appointment" time="44.648" tests="4" failures="0" errors="0">
+   <testsuite name="Test Login and Appointment" tests="4" failures="0" errors="0" time="44.648" skipped="0" timestamp="2023-02-11 02:48:50" hostname="Aditya Novalyanto - Masditya" id="Test Suites/Test Login and Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aditya Novalyanto\\Katalon Studio\\Automation-Test\\Reports\\20230211_024839\\Test Login and Appointment\\20230211_024840"/>
+         <property name="logFiles" value="C:\\Users\\Aditya Novalyanto\\Katalon Studio\\Automation-Test\\Reports\\20230211_024839\\Test Login and Appointment\\20230211_024840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aditya Novalyanto - Masditya"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="ce8976e4455bb4f030aa99d2289c96c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_1.1" time="10.708" classname="Test Cases/Login/TC_1.1" status="PASSED">
+         <system-out><![CDATA[2023-02-11 02:48:51 - [TEST_CASE][PASSED] - Test Cases/Login/TC_1.1: Test Cases/Login/TC_1.1
+
+2023-02-11 02:48:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-11 02:48:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-11 02:48:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-11 02:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-11 02:48:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:48:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:48:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button make appointment")): Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input username"), "John"): Text 'John' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:48:59 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:48:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:48:59 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Login/button login")): Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Alert login failed"), 0): Object 'Object Repository/Login/Alert login failed' is present
+
+2023-02-11 02:49:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-11 02:49:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Alert login failed' is present
+
+2023-02-11 02:49:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-11 02:49:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_1.2" time="8.298" classname="Test Cases/Login/TC_1.2" status="PASSED">
+         <system-out><![CDATA[2023-02-11 02:49:01 - [TEST_CASE][PASSED] - Test Cases/Login/TC_1.2: Test Cases/Login/TC_1.2
+
+2023-02-11 02:49:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-11 02:49:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-11 02:49:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-11 02:49:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-11 02:49:03 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button make appointment")): Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:08 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Login/button login")): Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Alert login success"), 0): Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-11 02:49:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:10 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-02-11 02:49:10 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/TC_2.1" time="12.974" classname="Test Cases/Make Appointment/TC_2.1" status="PASSED">
+         <system-out><![CDATA[2023-02-11 02:49:10 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/TC_2.1: Test Cases/Make Appointment/TC_2.1
+
+2023-02-11 02:49:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC_1.2"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC_1.2' successfully
+
+2023-02-11 02:49:10 - [TEST_CASE][PASSED] - Test Cases/Login/TC_1.2: Test Cases/Login/TC_1.2
+
+2023-02-11 02:49:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-11 02:49:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-11 02:49:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-11 02:49:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-11 02:49:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-11 02:49:12 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:15 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button make appointment")): Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:18 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/button login")): Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Alert login success"), 0): Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-11 02:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:19 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-02-11 02:49:19 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2023-02-11 02:49:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_1.2' successfully
+
+2023-02-11 02:49:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "Tokyo CURA Healthcare Center", true): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-02-11 02:49:20 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-02-11 02:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-02-11 02:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-02-11 02:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment/input_Medicare_programs")): Object: 'Object Repository/Make Appointment/input_Medicare_programs' is clicked on
+
+2023-02-11 02:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/input_Medicare_programs' is clicked on
+
+2023-02-11 02:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment/textarea_Comment_comment"), "Hallo"): Text 'Hallo' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-02-11 02:49:22 - [MESSAGE][PASSED] - Text 'Hallo' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-02-11 02:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-02-11 02:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-02-11 02:49:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-11 02:49:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/TC_2.2" time="12.348" classname="Test Cases/Make Appointment/TC_2.2" status="PASSED">
+         <system-out><![CDATA[2023-02-11 02:49:23 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/TC_2.2: Test Cases/Make Appointment/TC_2.2
+
+2023-02-11 02:49:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC_1.2"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC_1.2' successfully
+
+2023-02-11 02:49:23 - [TEST_CASE][PASSED] - Test Cases/Login/TC_1.2: Test Cases/Login/TC_1.2
+
+2023-02-11 02:49:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-11 02:49:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-11 02:49:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-11 02:49:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-11 02:49:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-02-11 02:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Login/Button make appointment")): Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Button make appointment' is clicked on
+
+2023-02-11 02:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:29 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Input username'
+
+2023-02-11 02:49:29 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:30 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/Input password'
+
+2023-02-11 02:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Login/button login")): Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button login' is clicked on
+
+2023-02-11 02:49:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Alert login success"), 0): Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-02-11 02:49:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Alert login success' is present
+
+2023-02-11 02:49:31 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-02-11 02:49:31 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2023-02-11 02:49:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC_1.2' successfully
+
+2023-02-11 02:49:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107"), "Tokyo CURA Healthcare Center", true): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-02-11 02:49:32 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-02-11 02:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-02-11 02:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-02-11 02:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment/input_Medicare_programs")): Object: 'Object Repository/Make Appointment/input_Medicare_programs' is clicked on
+
+2023-02-11 02:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/input_Medicare_programs' is clicked on
+
+2023-02-11 02:49:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appointment/textarea_Comment_comment"), "Hallo"): Text 'Hallo' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-02-11 02:49:34 - [MESSAGE][PASSED] - Text 'Hallo' is set on object 'Object Repository/Make Appointment/textarea_Comment_comment'
+
+2023-02-11 02:49:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appointment/button_Book Appointment")): Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-02-11 02:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appointment/button_Book Appointment' is clicked on
+
+2023-02-11 02:49:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-11 02:49:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-11 02:48:50 - [TEST_SUITE][PASSED] - Test Login and Appointment: Test Cases/Make Appointment/TC_2.2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Make Appointment without input date</description>
+   <name>TC_2.1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d82881a3-9127-4d7b-86f9-e9aed45c8e8c</testCaseGuid>
+</TestCaseEntity>

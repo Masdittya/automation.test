@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Login and Appointment,Chrome 110.0.0.0,,,2023-02-11 02:48:50,2023-02-11 02:49:35,44.648s,PASSED
+,,,,,,,
+Test Cases/Login/TC_1.1,Chrome 110.0.0.0,Login with invalid data,,2023-02-11 02:48:51,2023-02-11 02:49:01,10.708s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-11 02:48:51,2023-02-11 02:48:54,2.569s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 110.0.0.0,,,2023-02-11 02:48:54,2023-02-11 02:48:57,3.251s,PASSED
+"click(findTestObject(""Login/Button make appointment""))",Chrome 110.0.0.0,,,2023-02-11 02:48:57,2023-02-11 02:48:58,0.887s,PASSED
+"setText(findTestObject(""Login/Input username""), ""John"")",Chrome 110.0.0.0,,,2023-02-11 02:48:58,2023-02-11 02:48:59,0.759s,PASSED
+"setText(findTestObject(""Login/Input password""), ""ThisIsNotAPassword"")",Chrome 110.0.0.0,,,2023-02-11 02:48:59,2023-02-11 02:48:59,0.718s,PASSED
+"click(findTestObject(""Login/button login""))",Chrome 110.0.0.0,,,2023-02-11 02:48:59,2023-02-11 02:49:00,0.987s,PASSED
+"verifyElementPresent(findTestObject(""Login/Alert login failed""), 0)",Chrome 110.0.0.0,,,2023-02-11 02:49:00,2023-02-11 02:49:01,0.361s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-11 02:49:01,2023-02-11 02:49:01,0.695s,PASSED
+,,,,,,,
+Test Cases/Login/TC_1.2,Chrome 110.0.0.0,Login with valid data,,2023-02-11 02:49:01,2023-02-11 02:49:10,8.298s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-11 02:49:02,2023-02-11 02:49:03,1.234s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 110.0.0.0,,,2023-02-11 02:49:03,2023-02-11 02:49:06,2.991s,PASSED
+"click(findTestObject(""Login/Button make appointment""))",Chrome 110.0.0.0,,,2023-02-11 02:49:06,2023-02-11 02:49:07,0.830s,PASSED
+"setText(findTestObject(""Login/Input username""), ""John Doe"")",Chrome 110.0.0.0,,,2023-02-11 02:49:07,2023-02-11 02:49:08,0.755s,PASSED
+"setText(findTestObject(""Login/Input password""), ""ThisIsNotAPassword"")",Chrome 110.0.0.0,,,2023-02-11 02:49:08,2023-02-11 02:49:08,0.764s,PASSED
+"click(findTestObject(""Login/button login""))",Chrome 110.0.0.0,,,2023-02-11 02:49:08,2023-02-11 02:49:09,1.055s,PASSED
+"verifyElementPresent(findTestObject(""Login/Alert login success""), 0)",Chrome 110.0.0.0,,,2023-02-11 02:49:09,2023-02-11 02:49:10,0.349s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-11 02:49:10,2023-02-11 02:49:10,0.003s,NOT_RUN
+,,,,,,,
+Test Cases/Make Appointment/TC_2.1,Chrome 110.0.0.0,Make Appointment without input date,,2023-02-11 02:49:10,2023-02-11 02:49:23,12.974s,PASSED
+"callTestCase(findTestCase(""Login/TC_1.2""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-11 02:49:10,2023-02-11 02:49:19,9.053s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107""), ""Tokyo CURA Healthcare Center"", true)",Chrome 110.0.0.0,,,2023-02-11 02:49:19,2023-02-11 02:49:20,1.007s,PASSED
+"click(findTestObject(""Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f""))",Chrome 110.0.0.0,,,2023-02-11 02:49:20,2023-02-11 02:49:21,0.395s,PASSED
+"click(findTestObject(""Object Repository/Make Appointment/input_Medicare_programs""))",Chrome 110.0.0.0,,,2023-02-11 02:49:21,2023-02-11 02:49:21,0.381s,PASSED
+"setText(findTestObject(""Object Repository/Make Appointment/textarea_Comment_comment""), ""Hallo"")",Chrome 110.0.0.0,,,2023-02-11 02:49:21,2023-02-11 02:49:22,0.705s,PASSED
+"click(findTestObject(""Make Appointment/button_Book Appointment""))",Chrome 110.0.0.0,,,2023-02-11 02:49:22,2023-02-11 02:49:22,0.418s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-11 02:49:22,2023-02-11 02:49:23,0.662s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/TC_2.2,Chrome 110.0.0.0,Make Appointment Success,,2023-02-11 02:49:23,2023-02-11 02:49:35,12.348s,PASSED
+"callTestCase(findTestCase(""Login/TC_1.2""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-11 02:49:23,2023-02-11 02:49:31,8.426s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Make Appointment/select_Tokyo CURA Healthcare Center        _5b4107""), ""Tokyo CURA Healthcare Center"", true)",Chrome 110.0.0.0,,,2023-02-11 02:49:31,2023-02-11 02:49:32,0.993s,PASSED
+"click(findTestObject(""Object Repository/Make Appointment/input_Apply for hospital readmission_hospit_63901f""))",Chrome 110.0.0.0,,,2023-02-11 02:49:32,2023-02-11 02:49:33,0.389s,PASSED
+"click(findTestObject(""Object Repository/Make Appointment/input_Medicare_programs""))",Chrome 110.0.0.0,,,2023-02-11 02:49:33,2023-02-11 02:49:33,0.378s,PASSED
+"setText(findTestObject(""Object Repository/Make Appointment/textarea_Comment_comment""), ""Hallo"")",Chrome 110.0.0.0,,,2023-02-11 02:49:33,2023-02-11 02:49:34,0.695s,PASSED
+"click(findTestObject(""Object Repository/Make Appointment/button_Book Appointment""))",Chrome 110.0.0.0,,,2023-02-11 02:49:34,2023-02-11 02:49:34,0.424s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-11 02:49:34,2023-02-11 02:49:35,0.739s,PASSED
